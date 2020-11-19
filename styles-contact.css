@@ -79,9 +79,9 @@ html, body {
 
    
 #logo {
-    margin-bottom: 50px; /* increased bottom margin from 50px */
-    margin-top: 100px; /* increased top margin from 40px */
-	text-align: right;
+    margin-bottom: 50px; 
+    margin-top: 40px;
+	text-align: center;
     /* removed -- border: 4px dashed red; */
 }
 
@@ -94,9 +94,9 @@ h1 {
     text-transform: uppercase; /* added text-transform */
     line-height: 1.5;
     color: #fff;
-    padding: 20px 20px;
+    padding: 40px 20px;
     margin: 0px auto 0px auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     
 /* fade in and out animation */
     animation: fadeIn ease 5s;
@@ -151,13 +151,10 @@ h1 {
 }
 
 nav{
-    font-size: 10em;
-    font-weight: 150;
-    width: 900px;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 200em; /* decreased margin top*/
-    
+    padding: 20px 0;
     }
 
 /* all code below replaced from demo styles... By Karim Balaa @FRESHCONTRAST adds fade to hover */
@@ -180,7 +177,6 @@ nav li{
 nav a{
   color:#fff;
   padding:20px 20px;
-  font-size: 15px;
   text-decoration:none;
   letter-spacing:3px;
   text-transform:uppercase;
