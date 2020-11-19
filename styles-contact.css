@@ -90,13 +90,13 @@ h1 {
 	font-family: "helvetica", sans-serif;
     font-weight: 150;
     font-style: italic; /* changed font style from normal to italic */
-    font-size: 2.5em; /* increased font size */
+    font-size: 1.2em; /* increased font size */
     text-transform: uppercase; /* added text-transform */
     line-height: 1.5;
     color: #fff;
-    padding: 40px 20px;
+    padding: 20px 20px;
     margin: 0px auto 0px auto;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     
 /* fade in and out animation */
     animation: fadeIn ease 5s;
@@ -180,7 +180,7 @@ nav li{
 nav a{
   color:#fff;
   padding:20px 20px;
-  font-size: 30px;
+  font-size: 15px;
   text-decoration:none;
   letter-spacing:3px;
   text-transform:uppercase;
