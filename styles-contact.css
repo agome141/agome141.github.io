@@ -68,8 +68,8 @@ html, body {
 }
 
 .center {
-    width: 90%;/*added this to make div responsive */
-    max-width: 800 px;
+    width: 80%;/*added this to make div responsive */
+    max-width: 800px;
 	padding: 2%;
     margin: 200px auto;/* changed margin from 100px */
 	text-align: center; 
@@ -90,11 +90,11 @@ h1 {
 	font-family: "helvetica", sans-serif;
     font-weight: 150;
     font-style: italic; /* changed font style from normal to italic */
-    font-size: 3.5em; /* increased font size */
+    font-size: 2.5em; /* increased font size */
     text-transform: uppercase; /* added text-transform */
     line-height: 1.5;
     color: #fff;
-    padding: 40px 40px;
+    padding: 40px 20px;
     margin: 0px auto 0px auto;
     margin-bottom: 60px;
     
@@ -180,7 +180,7 @@ nav li{
 nav a{
   color:#fff;
   padding:20px 20px;
-  font-size: 35px;
+  font-size: 30px;
   text-decoration:none;
   letter-spacing:3px;
   text-transform:uppercase;
