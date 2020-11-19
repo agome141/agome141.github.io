@@ -53,91 +53,146 @@ table {
 
 
 
-/* ---------- Hello, my name is Anais Gomez and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2020 ------------ */
+/* ---------- Hello, my name is Anais Gomez and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing November 2020 ------------ */
 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/black_white_bg.jpg)
       center center fixed no-repeat;
     background-size: cover;
-	
+    font-family: "helvetica", sans-serif;
 	
 }
 
 .center {
-    width: 800px;
+    width: 90%;/*added this to make div responsive */
+    max-width: 800 px;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
-	text-align: center;
-	border: 4px dashed white;
+    margin: 200px auto;/* changed margin from 100px */
+	text-align: center; 
+    /* removed background: rgba (256, 256, 256, .60); */
+    /* removed -- border: 4px dashed white; */
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
-	text-align: center;
+    margin-bottom: 50px; /* increased bottom margin from 50px */
+    margin-top: 100px; /* increased top margin from 40px */
+	text-align: right;
+    /* removed -- border: 4px dashed red; */
 }
+
 
 h1 {
-	font-family: garamond, serif;
-    font-size: 2em;
-    margin: 0px auto 10px auto;
+	font-family: "helvetica", sans-serif;
+    font-weight: 150;
+    font-style: italic; /* changed font style from normal to italic */
+    font-size: 3.5em; /* increased font size */
+    text-transform: uppercase; /* added text-transform */
+    line-height: 1.5;
     color: #fff;
+    padding: 40px 40px;
+    margin: 0px auto 0px auto;
+    margin-bottom: 60px;
+    
+/* fade in and out animation */
+    animation: fadeIn ease 5s;
+    -webkit-animation:fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+
+}
+@keyframes fade In{ 
+    0% { opacity: 0;
+    }
+    100% {opacity 1;
+    }
 }
 
-h2 {
-	font-family: orbe,serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-p {
-	font-family: garamond, serif;
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
 }
 
 nav{
-    font-family: garamond;
-    font-size: 1.2em;
-    width: 400px;
+    font-size: 10em;
+    font-weight: 150;
+    width: 900px;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 200em; /* decreased margin top*/
+    
     }
+
+/* all code below replaced from demo styles... By Karim Balaa @FRESHCONTRAST adds fade to hover */
+
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .4s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
 
 nav li{
-    display: inline
-    }
+  padding: 0 px;
+  text-align:center;
+  font-family: "helvetica", sans-serif;
+    display: inline;
+}
 
 nav a{
-    display: inline-block;
-    padding: 10px;  
-    }
-
-a{
-    color: #444;
-    text-decoration: none;
-    font-weight: bold;
-    }
+  color:#fff;
+  padding:20px 20px;
+  font-size: 35px;
+  text-decoration:none;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
 
 a:hover{
-    color: black;
-    background: pink; 
-    }
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#b6c0bf;
+}
 
     
     
