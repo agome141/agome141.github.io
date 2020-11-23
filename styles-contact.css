@@ -68,8 +68,8 @@ html, body {
 }
 
 .center {
-    width: 80%;/*added this to make div responsive */
-    max-width: 800px;
+    width: 50%;/*added this to make div responsive */
+    max-width: 600px;
 	padding: 2%;
     margin: 200px auto;/* changed margin from 100px */
 	text-align: center; 
