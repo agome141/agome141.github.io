@@ -71,7 +71,7 @@ html, body {
     width: 80%;/*added this to make div responsive */
     max-width: 800px;
 	padding: 2%;
-    margin: 200px auto;/* changed margin from 100px */
+    margin: 10px auto;/* changed margin from 100px to 10px*/
 	text-align: center; 
     /* removed background: rgba (256, 256, 256, .60); */
     /* removed -- border: 4px dashed white; */
@@ -87,7 +87,7 @@ html, body {
 
 
 h1 {
-	font-family: "helvetica", sans-serif;
+	font-family: "helvetica", sans-serif; /*changed font-family from garamond */
     font-weight: 150;
     font-style: italic; /* changed font style from normal to italic */
     font-size: 1.2em; /* increased font size */
@@ -183,11 +183,11 @@ nav a{
 }
 
 a:hover{
-  border:none;
+  border:none; /* removed border */
   background:rgba(0, 0, 0, 0.4);
   background:#fff;
   padding:20px 20px; #000;
-  color:#b6c0bf;
+  color:#b6c0bf; /*updated color from black */
 }
 
     
