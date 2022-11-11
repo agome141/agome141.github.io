@@ -1,0 +1,96 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+}
+
+body {
+	background-color:#fafafa; /* Not totally white. */
+	color: #1e1e1e;  /* Not totally black. */
+	line-height: 140%; 	/* A little extra leading. */
+	font-family: verdana, sans-serif;
+}
+
+div.container {
+    max-width: 30em;
+    margin: auto;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: rgb(148,185,200);
+    font-size: 1.2rem;
+    padding: 2rem 1rem 0.2rem;
+    font-family: verdana, sans-serif; 
+    font-weight: bold;  
+    font-style: normal;
+}
+
+h3 {
+	margin: 0.5rem 0rem 0.2em; /*Three values again. You got the idea.*/
+	padding-top: 1rem;
+	font-size: 0.9rem;
+	color: rgb(32,82,115);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+}
+
+p.description {
+	font-style:italic;
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+p.price {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+p.information {
+    font-size: 0.9rem;
+    margin: 0.5rem 1rem 0.9rem;
+}
+    
+nav {
+    padding: 0.1rem;
+    text-align: center;
+    background-color:rgb(148,185,200);
+}
+
+ul {
+    list-style: none;
+    margin: 0.5rem 1rem 0.9rem;
+}
+
+nav ul li {
+    display: inline;
+    font-family: verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color: rgb(250,250,250);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(32,82,115);
+}
+
+footer {
+    background-color: rgb(148,185,200);
+    color: rgb(250,250,250); /* Same as body background. */
+    font-size: 0.5rem;
+    padding: 1rem 1rem 1rem; /* You want three values. */
+    font-family: verdana, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    margin-top: 3rem;
+}
