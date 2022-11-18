@@ -126,7 +126,7 @@ div.container {
     section {
         display:grid;
         grid-template-columns: repeat (2,auto);
-        margin-right: 1rem;
+        margin-right: 5rem;
     }
     
     section img {
