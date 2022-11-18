@@ -16,10 +16,10 @@ header {
 }
 
 body {
-	background-color:#fafafa; /* Not totally white. */
-	color: #1e1e1e;  /* Not totally black. */
-	line-height: 140%; 	/* A little extra leading. */
-	font-family: bio-sans, sans-serif;
+    background-color:#fafafa; /* Not totally white. */
+    color: #1e1e1e;  /* Not totally black. */
+    line-height: 140%; 	/* A little extra leading. */
+    font-family: bio-sans, sans-serif;
 }
 
 h2 {
