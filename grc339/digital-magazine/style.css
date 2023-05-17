@@ -7,7 +7,7 @@ body {
 }
 
 div.container {
-    max-width: 40em;
+    max-width: 70em;
     margin: auto;
 }
 
@@ -26,10 +26,20 @@ ul {
 
 h1 {
     width: 10em;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .mainstory a:hover {
+    color: rgb(228,148,137);
+    text-decoration: underline;
+}
+
+.secondary a:hover {
+    color: rgb(228,148,137);
+    text-decoration: underline;
+}
+
+.tertiary a:hover {
     color: rgb(228,148,137);
     text-decoration: underline;
 }
@@ -79,15 +89,15 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+
 footer {
-    background-color: rgb(228,148,137);
-    color: rgb(250,250,250); /* Same as body background. */
+    color: rgb(228,148,137);
     font-size: 0.8rem;
-    padding: 1rem 1rem 1rem; /* You want three values. */
     font-family: "menco", sans-serif;
     font-weight: 500;
     font-style: normal;
     margin-top: 3rem;
+    margin-bottom: 
 }
 
 figcaption {
@@ -95,4 +105,63 @@ figcaption {
     font-weight: 500;
     font-style: normal;
     font-size: 0.8rem;  
+}
+
+
+@media screen and (min-width: 60em){
+    
+div.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 3em;
+    margin: 0 auto;
+}
+    
+header {    
+    grid-column: 1/6;
+}
+    
+main {
+    display: grid;
+    grid-column: 1/3;
+    grid-gap: 2em;
+    margin: 1em auto;
+}
+    
+section.mainstory {
+    display:grid;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+    
+aside {
+    display: grid;
+    grid-column: 3/4;
+    max-height: 5em;
+    max-width: 10em;
+}
+    
+text {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+    
+footer {
+    grid-row: 4/5;
+}
+
+article {
+    display:grid;
+    grid-column: 1/3;
+    grid-row: 2/4;  
+    margin-top: 1rem;
+    }
+    
+aside.previews {
+    display: grid;
+    grid-column: 3/4;
+    max-height: 5em;
+    max-width: 15em;
+}
+    
 }
